@@ -16,7 +16,7 @@ public class AssertLoginPage {
     baseUrl = "http://sizer.nutanix.cloudbees.net/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
-
+//test using junit
   @Test
   public void testUntitled() throws Exception {
     driver.get(baseUrl + "/#/login");
